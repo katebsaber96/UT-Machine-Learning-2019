@@ -1,0 +1,24 @@
+
+ Multivariate linear regression model
+
+Number of used coefficients: 219
+R squared Score: -2.858706063278099e+21
+Mean Absolute Error: 1055112737.1771085
+Mean Squared Error: 5.7555691297568686e+20
+Root Mean Squared Error: 23990767244.414818
+
+ Ridge regression model
+
+Number of used coefficients: 219
+R squared test Score: 0.5793774720087499
+Mean Absolute Error: 0.24082586437752515
+Mean Squared Error: 0.08468593775642133
+Root Mean Squared Error: 0.2910084839938886
+
+ Lasso regression model
+
+Number of used coefficients: 63
+R squared test Score: 0.6744580726645737
+Mean Absolute Error: 0.18791821976331105
+Mean Squared Error: 0.0655429073832366
+Root Mean Squared Error: 0.25601349062742107

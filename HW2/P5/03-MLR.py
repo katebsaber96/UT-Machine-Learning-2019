@@ -3,6 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import preprocessing, metrics
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from itertools import combinations
 
 ridge_alpha = 100  # Ridge regression parameter
 lasso_alpha = 0.001  # Lasso regression parameter
@@ -29,10 +30,10 @@ df_Xtrain = norm(df_Xtrain, 'NVP')
 df_Xtest = norm(df_Xtest, 'NVP')
 
 # Show top 10 rows of dataframe
-# print(df_Xtrain.head(10))
+print(df_Xtrain.head(10))
 
 # Dataset description
-# print(df_Xtrain.describe())
+print(df_Xtrain.describe())
 
 # Split X columns and Y column
 X_train = df_Xtrain.drop(columns=['NVP']).values
